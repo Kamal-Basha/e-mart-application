@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Kamal-Basha.github.io/e-mart-application",
   "name": "e-mart",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build"
+    "deploy": "gh=pages -d build"
+    
   },
   "dependencies": {
     "react": "^19.1.1",
