@@ -1,12 +1,81 @@
-# React + Vite
+Froented - React E-commerce Application
+A modern, responsive e-commerce web application built with React.js featuring multiple product categories and clean user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Multi-Category Shopping: Browse through various product categories including:
 
-Currently, two official plugins are available:
+Electronics (Mobiles, Computers, Speakers, Watches)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Home & Living (AC, Furniture, Kitchen, Fridge)
 
-## Expanding the ESLint configuration
+Fashion (Men's & Women's clothing)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Books
+
+React Router Navigation: Seamless single-page application experience
+
+Product Detail Pages: Individual product pages with detailed information
+
+Responsive Design: Optimized for desktop and mobile devices
+
+Modern UI/UX: Clean and intuitive interface design
+
+🛠️ Built With
+Frontend Framework: React.js
+
+Routing: React Router DOM
+
+Styling: CSS3
+
+Build Tool: Create React App / Vite
+
+📦 Project Structure
+text
+src/
+├── App.jsx                 # Main app component with routing
+├── App.css                 # Global styles
+├── stores/
+│   └── pages/              # Category pages
+│       ├── landingPage.jsx
+│       ├── AcPage.jsx
+│       ├── BooksPage.jsx
+│       ├── Computerpage.jsx
+│       ├── FridgePage.jsx
+│       ├── FurniturePage.jsx
+│       ├── KitchenPage.jsx
+│       ├── MenPage.jsx
+│       ├── MobilesPage.jsx
+│       ├── SpeakerPage.jsx
+│       ├── WatchPage.jsx
+│       └── WomenPage.jsx
+└── singles/
+    └── MobilesSingle.jsx   # Individual product page
+🚀 Getting Started
+Prerequisites
+Node.js (v14 or higher)
+
+npm or yarn package manager
+
+Installation
+Clone the repository
+
+bash
+git clone https://github.com/yourusername/froented.git
+cd froented
+Install dependencies
+
+bash
+npm install
+# or
+yarn install
+Start the development server
+
+bash
+npm start
+# or
+yarn start
+Open your browser
+Navigate to http://localhost:3000 to view the application.
+
+🎯 Usage
+Home Page: Landing page showcasi
